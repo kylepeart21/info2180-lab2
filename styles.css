@@ -9,8 +9,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 3fr 1fr; /* Main takes 3/4, Sidebar takes 1/4 */
-    grid-template-rows: auto 1fr auto; /* Header, Main, Footer */
+    grid-template-columns: 3fr 1fr; 
     grid-template-areas:
         "header header"
         "main sidebar"
@@ -24,11 +23,11 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 40px 20px; /* Increased padding */
-    background-color: #63B3ED; /* Header background color */
+    padding: 40px 20px; 
+    background-color: #63B3ED; 
     color: white;
-    height: auto; /* Changed to auto */
-    min-height: 300px; /* Optional: Set a minimum height */
+    height: auto; 
+    min-height: 300px; 
 }
 
 main {
@@ -59,7 +58,7 @@ h1 {
 
 h2 {
     font-size: 32px;
-    color: #48BB78; /* Blog post titles color */
+    color: #48BB78; 
     margin: 10px 0;
 }
 
@@ -69,14 +68,14 @@ h3 {
 }
 
 h3.about {
-    color: #000000; /* About heading color */
-    font-family: Georgia, 'Times New Roman', Times, serif; /* Font family for About */
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
 }
 
 h3.social-media,
 h3.archives {
-    color: #48BB78; /* Color for Social Media and Archives headings */
-    font-family: Georgia, 'Times New Roman', Times, serif; /* Font family */
+    color: #48BB78; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
 }
 
 p {
@@ -84,8 +83,8 @@ p {
 }
 
 p em {
-    color: #718096; /* Date and author color */
-    font-size: 16px; /* Corrected font size with unit */
+    color: #718096; 
+    font-size: 16px; 
     margin: 5px 0;
 }
 
@@ -98,9 +97,9 @@ p em {
 }
 
 .about {
-    background-color: #E2E8F0; /* About section background color */
-    padding: 15px; /* Added padding for spacing */
-    margin-bottom: 20px; /* Space below About section */
+    background-color: #E2E8F0; 
+    padding: 15px; 
+    margin-bottom: 20px; 
 }
 
 .social-media,
@@ -122,7 +121,7 @@ li {
 .float-left {
     float: left;
     margin-right: 15px;
-    width: 350px; /* Adjusted width for smaller images */
+    width: 350px; 
     height: auto;
     border-radius: 8px;
 }
@@ -130,12 +129,12 @@ li {
 .float-right {
     float: right;
     margin-left: 15px;
-    width: 350px; /* Adjusted width for smaller images */
+    width: 350px; 
     height: auto;
     border-radius: 8px;
 }
 
-/* Clear floats after each article */
+
 article:after {
     content: "";
     display: table;
